@@ -33,7 +33,6 @@ const resultLinks = {
   "10th": "https://rajasthan-10th-result.indiaresults.com/rj/bser/class-10-result-2024/"
 };
 
-
 const formSchema = z.object({
   studentName: z.string().min(1, {
     message: "Name is required.",
@@ -44,7 +43,7 @@ const formSchema = z.object({
 });
 type FormSchemaType = z.infer<typeof formSchema>;
 
-export function Services() {
+export default function Services2() {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const form = useForm<FormSchemaType>({
     resolver: zodResolver(formSchema),
@@ -146,5 +145,3 @@ export function Services() {
     </div>
   );
 }
-
-export default Services;
