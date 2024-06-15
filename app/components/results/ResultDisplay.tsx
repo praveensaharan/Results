@@ -89,10 +89,10 @@ const ResultDisplay: React.FC<ResultDisplayProps> = ({ html_content }) => {
                             <UserOutlined /> <strong>Name:</strong> {html_content.name}
                         </Typography.Paragraph>
                         <Typography.Paragraph>
-                            <SmileOutlined /> <strong>Father's Name:</strong> {html_content.father_name}
+                            <SmileOutlined /> <strong>Father&apos;s Name:</strong> {html_content.father_name}
                         </Typography.Paragraph>
                         <Typography.Paragraph>
-                            <SmileOutlined /> <strong>Mother's Name:</strong> {html_content.mother_name}
+                            <SmileOutlined /> <strong>Mother&apos;s Name:</strong> {html_content.mother_name}
                         </Typography.Paragraph>
                         <Typography.Paragraph>
                             <HomeOutlined /> <strong>School:</strong> {html_content.school}

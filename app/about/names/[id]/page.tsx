@@ -76,7 +76,7 @@ const Results: React.FC<ProductPageProps> = ({ params }) => {
             render: (text: string) => <Typography.Text strong>{text}</Typography.Text>,
         },
         {
-            title: "Father's Name",
+            title: "Father&apos;s Name",
             dataIndex: 'father_name',
             key: 'father_name',
             ellipsis: true,
