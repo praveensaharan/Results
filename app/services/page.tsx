@@ -36,7 +36,7 @@ const formSchema = z.object({
 });
 type FormSchemaType = z.infer<typeof formSchema>;
 
-export function Services() {
+const Services = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const form = useForm<FormSchemaType>({
     resolver: zodResolver(formSchema),
