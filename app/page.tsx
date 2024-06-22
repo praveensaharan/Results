@@ -5,16 +5,15 @@ import Parallex from "../components/home/Parallex"
 
 
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <Section1 />
-      <Parallex />
-      <Footer />
+      return (
+            <>
+                  <Hero />
+                  <Section1 />
+                  <Parallex />
+                  <Footer />
 
 
 
-
-    </>
-  );
+            </>
+      );
 }
