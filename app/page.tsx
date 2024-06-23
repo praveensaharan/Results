@@ -13,7 +13,8 @@ import Animated from '../components/home/Animated';
 
 export default function Home() {
       const searchParams = useSearchParams();
-      const scrollTo = searchParams.get('scrollTo');
+      const scrollTo = searchParams?.get('scrollTo');
+      ;
 
       useEffect(() => {
             if (scrollTo) {

@@ -9,7 +9,8 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const scrollTo = searchParams.get('scrollTo');
+  const scrollTo = searchParams?.get('scrollTo');
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
