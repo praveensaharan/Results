@@ -18,7 +18,7 @@ const Author = () => {
         <div className="w-full sm:w-auto flex flex-col items-center sm:items-start">
           <p
             className="font-display mb-2 text-2xl font-semibold dark:text-gray-200"
-            itemprop="author"
+            itemProp="author"
           >
             Prajwal Hallale
           </p>

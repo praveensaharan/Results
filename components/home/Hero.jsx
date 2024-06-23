@@ -3,7 +3,7 @@ import { Button } from "antd";
 
 const hero = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
+    <div className="relative h-screen flex items-center justify-center animated-background  bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white">
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 text-center px-6 md:px-12 lg:px-24">
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-4">

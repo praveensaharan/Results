@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { useSearchParams, usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { Link as ScrollLink } from 'react-scroll';
+import Image from 'next/image';
+import Logo from "../../Assets/Logo/finfind-high-resolution-logo-transparent (1).png"
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +25,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between">
             <div className="flex shrink-0">
               <Link aria-current="page" className="flex items-center" href="/">
-                <img className="h-7 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Website Logo" />
+                <Image className="h-8 w-auto" src={Logo} alt="Website Logo" />
                 <p className="sr-only">Website Title</p>
               </Link>
             </div>

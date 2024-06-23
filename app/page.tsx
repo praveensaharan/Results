@@ -4,7 +4,6 @@ import { useSearchParams } from 'next/navigation';
 import { scroller } from 'react-scroll';
 
 import Hero from '../components/home/Hero';
-import Footer from '../components/home/Footer';
 import Section1 from '../components/home/Section1';
 import Parallex from '../components/home/Parallex';
 import Subscription from '../components/home/subscription';
@@ -45,7 +44,6 @@ export default function Home() {
                   <div id="animated">
                         <Animated />
                   </div>
-                  <Footer />
             </>
       );
 }
