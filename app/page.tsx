@@ -6,8 +6,8 @@ import { scroller } from 'react-scroll';
 import Hero from '../components/home/Hero';
 import Footer from '../components/home/Footer';
 import Section1 from '../components/home/Section1';
-import Parallex from '../components/home/Parallex';
-import Subscription from '../components/home/Subscription'; // Fixed import case
+import Parallex from '../components/home/parallex';
+import Subscription from '../components/home/subscription';
 import Author from '../components/home/Author';
 import Animated from '../components/home/Animated';
 
