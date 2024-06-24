@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AnimatedImageCards = () => {
   return (
-    <section className="bg-[#e3e2df] pt-48 lg:pt-12 overflow-hidden">
+    <section className="bg-[#e3e2df] pt-48 lg:pt-12 lg:pb-0 pb-48 overflow-hidden">
       <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
         <div className="flex flex-col sm:flex-row mx-auto gap-4">
           <a href="#_">
