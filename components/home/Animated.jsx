@@ -2,10 +2,9 @@ import React from "react";
 
 const AnimatedImageCards = () => {
   return (
-    <section className="bg-zinc-50 overflow-hidden">
+    <section className="bg-[#e3e2df] pt-48 lg:pt-12 overflow-hidden">
       <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
-        <div className="flex flex-col sm:flex-row mx-auto">
-          {/* Starts component */}
+        <div className="flex flex-col sm:flex-row mx-auto gap-4">
           <a href="#_">
             <img
               src="https://images.unsplash.com/photo-1530035415911-95194de4ebcc?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -35,8 +34,8 @@ const AnimatedImageCards = () => {
             />
           </a>
         </div>
-        <h1 className="text-4xl font-bold text-center text-gray-900">
-          hffoffoof uuoiojioji hoioiohiodh
+        <h1 className="text-4xl font-bold text-center text-[#5d001e]">
+          We are highly reliable on India results
         </h1>
       </div>
     </section>
