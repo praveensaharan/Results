@@ -22,8 +22,8 @@ const Footer = () => {
           <div className="mt-6 lg:max-w-sm">
             <p className="text-sm text-[#e3e2df]">
               A next-generation app that simplifies the process of checking
-              results, allowing users to search by father's name, roll number,
-              or class, making it easier to access RBSE results.
+              results, allowing users to search by father&#39;s name, roll
+              number, or class, making it easier to access RBSE results.
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="flex">
             <p className="mr-1 text-[#e3e2df]">Email:</p>
             <a
-              href="praveen200040109@gmail.com"
+              href="mailto:praveen200040109@gmail.com"
               aria-label="Our email"
               title="Our email"
               className="transition-colors duration-300 text-[#e3afbc] hover:text-[#9a1750]"

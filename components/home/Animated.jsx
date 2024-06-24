@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const AnimatedImageCards = () => {
   return (
@@ -34,8 +35,15 @@ const AnimatedImageCards = () => {
             />
           </a>
         </div>
-        <h1 className="text-4xl font-bold text-center text-[#5d001e]">
-          We are highly reliable on India results
+        <h1 className="text-4xl font-bold text-center text-[#5d001e] flex justify-center items-center">
+          We are highly reliable on
+          <Image
+            src="https://www.indiaresults.com/assets/global-images/IRC-logo.png"
+            alt="logo"
+            width={150}
+            height={140}
+            className="mb-2 ml-5"
+          />
         </h1>
       </div>
     </section>

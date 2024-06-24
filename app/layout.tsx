@@ -6,8 +6,8 @@ import Footer from '../components/home/Footer';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "RBSE Results",
-  description: "Get all Details here",
+  title: "FinFind",
+  description: "A next-generation app that simplifies the process of checking results, allowing users to search by father's name, roll number, or class, making it easier to access RBSE results.",
   icons: {
     icon: '/finfind-favicon-black.png',
   },
