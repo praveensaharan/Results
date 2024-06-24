@@ -29,9 +29,7 @@ export default function Home() {
                   <div id="hero">
                         <Hero />
                   </div>
-                  <div id="section1">
-                        <Section1 />
-                  </div>
+
                   <div id="parallex">
                         <Parallex />
                   </div>

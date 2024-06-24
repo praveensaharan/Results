@@ -3,46 +3,54 @@ import Image from "next/image";
 
 const AnimatedImageCards = () => {
   return (
-    <section className="bg-[#e3e2df] pt-48 lg:pt-12 lg:pb-0 pb-48 overflow-hidden">
-      <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 h-svh flex flex-col justify-center">
-        <div className="flex flex-col sm:flex-row mx-auto gap-4">
-          <a href="#_">
-            <img
-              src="https://images.unsplash.com/photo-1530035415911-95194de4ebcc?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="Animated"
+    <section className="bg-[#e3e2df] pt-24 lg:pt-6 lg:pb-0 pb-24 overflow-hidden">
+      <div className="max-w-screen-xl 2xl:max-w-screen-3xl px-8 md:px-12 mx-auto py-12 lg:py-24 space-y-24 flex flex-col justify-center items-center">
+        <div className="flex flex-wrap justify-center gap-8">
+          <div className="relative group">
+            <Image
+              width={350}
+              height={350}
+              src="/images/10th.png"
+              className="rounded-xl rotate-6 group-hover:rotate-0 duration-500 group-hover:-translate-y-6 object-cover group-hover:scale-150 transform origin-bottom"
+              alt="10th"
             />
-          </a>
-          <a href="#_">
-            <img
-              src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?q=80&amp;w=2672&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="Animated"
+          </div>
+          <div className="relative group">
+            <Image
+              width={350}
+              height={350}
+              src="/images/12thsci.png"
+              className="rounded-xl -rotate-12 group-hover:rotate-0 duration-500 group-hover:-translate-y-6 object-cover group-hover:scale-150 transform origin-bottom"
+              alt="12th Science"
             />
-          </a>
-          <a href="#_">
-            <img
-              src="https://images.unsplash.com/photo-1586996292898-71f4036c4e07?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="Animated"
+          </div>
+          <div className="relative group">
+            <Image
+              width={350}
+              height={350}
+              src="/images/12tharts.png"
+              className="rounded-xl rotate-6 group-hover:rotate-0 duration-500 group-hover:-translate-y-6 object-cover group-hover:scale-150 transform origin-bottom"
+              alt="12th Arts"
             />
-          </a>
-          <a href="#_">
-            <img
-              src="https://images.unsplash.com/photo-1522775417749-29284fb89f43?q=80&amp;w=2574&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              className="rounded-xl -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom"
-              alt="Animated"
+          </div>
+          <div className="relative group">
+            <Image
+              width={350}
+              height={350}
+              src="/images/12thcomm.png"
+              className="rounded-xl -rotate-12 group-hover:rotate-0 duration-500 group-hover:-translate-y-6 object-cover group-hover:scale-150 transform origin-bottom"
+              alt="12th Commerce"
             />
-          </a>
+          </div>
         </div>
-        <h1 className="text-4xl font-bold text-center text-[#5d001e] flex justify-center items-center">
-          We are highly reliable on
+        <h1 className="text-4xl font-bold text-center text-[#5d001e] flex flex-col lg:flex-row justify-center items-center space-x-5">
+          <span>We are highly reliable on</span>
           <Image
             src="https://www.indiaresults.com/assets/global-images/IRC-logo.png"
             alt="logo"
             width={150}
             height={140}
-            className="mb-2 ml-5"
+            className="mt-2 lg:mt-0"
           />
         </h1>
       </div>

@@ -12,12 +12,12 @@ const Hero = () => {
         <p className="text-lg md:text-xl lg:text-2xl mb-8">
           Unleash your potential with our platform
         </p>
-        <Button
+        <button
           size="large"
-          className="bg-[#5d001e] hover:bg-[#9a1750] border-none text-white font-bold"
+          className="bg-[#5d001e] hover:bg-pink-400 border-none text-white font-bold p-2 rounded-xl shadow-lg hover:shadow-xl transition duration-300 ease-in-out"
         >
           Get Started
-        </Button>
+        </button>
       </div>
     </div>
   );

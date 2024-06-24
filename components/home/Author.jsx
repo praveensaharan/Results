@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Author = () => {
   return (
-    <div className="w-full flex items-center justify-center bg-[#e3e2df] dark:bg-[#5d001e] px-4">
+    <div className="w-full flex items-center justify-center bg-[#e3e2df] dark:bg-[#5d001e] px-4 mb-0">
       <div className="relative rotating-border w-full max-w-2xl my-8 md:my-16 flex flex-col items-center sm:items-start space-y-4 sm:space-y-0 sm:flex-row sm:space-x-6 px-4 py-8 shadow shadow-[#ee4c7c] rounded-lg bg-white dark:bg-[#5d001e]">
         <span className="absolute text-xs font-medium top-0 left-0 rounded-br-lg rounded-tl-lg px-2 py-1 bg-[#ee4c7c] dark:bg-[#9a1750] text-white border-[#9a1750] dark:border-[#e3afbc] border-b-2 border-r-2 border-dashed">
           Developer
